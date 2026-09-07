@@ -1,0 +1,30 @@
+# Ignore everything by default
+/*
+
+# Explicitly allow root-level dotfile directories
+!/hypr/
+!/waybar/
+!/fuzzel/
+!/ghostty/
+!/kitty/
+!/nvim/
+!/rofi/
+!/gtk-3.0/
+!/gtk-4.0/
+!/qt5ct/
+!/qt6ct/
+!/Kvantum/
+!/btop/
+!/htop/
+!/fontconfig/
+!/micro/
+
+# Root files
+!.gitignore
+!gtkrc
+!gtkrc-2.0
+
+# Exclude unwanted binaries or temp files inside allowed dirs
+*.log
+*.tmp
+*.sqlite*

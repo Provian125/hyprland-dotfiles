@@ -1,0 +1,14 @@
+[General]
+author=Matugen
+
+[Colors]
+window.color=#18120c
+base.color=#130d07
+alt.base.color=#302921
+text.color=#eee0d4
+window.text.color=#eee0d4
+highlight.color=#f8bb71
+highlight.text.color=#472a00
+button.color=#251e17
+button.text.color=#eee0d4
+link.color=#bccd9d
