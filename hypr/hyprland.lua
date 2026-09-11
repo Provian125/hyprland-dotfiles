@@ -15,10 +15,10 @@
 
 -- See https://wiki.hypr.land/Configuring/Basics/Monitors/
 hl.monitor({
-	output = "DP-4",
+	output = "eDP-1",
 	mode = "1920x1080@75",
 	position = "0x0",
-	scale = "1",
+	scale = "1.25",
 })
 
 ---------------------
@@ -308,7 +308,7 @@ hl.bind(mainMod .. " + Print", hl.dsp.exec_cmd("hyprshot --mode window"))
 hl.bind(secondMod .. " + Print", hl.dsp.exec_cmd("hyprshot --mode region"))
 
 -- hl.bind(mainMod .. " + P", hl.dsp.window.pseudo())
-hl.bind(mainMod .. " + O", hl.dsp.layout("togglesplit")) -- dwindle only
+hl.bind(mainMod .. " + V", hl.dsp.layout("togglesplit")) -- dwindle only
 
 -- Move focus with mainMod + arrow keys
 -- hl.bind(mainMod .. " + h", hl.dsp.focus({ direction = "left" }))
